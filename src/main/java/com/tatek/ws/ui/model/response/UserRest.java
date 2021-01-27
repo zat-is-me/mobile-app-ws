@@ -1,4 +1,4 @@
-package com.tatek.ui.model.response;
+package com.tatek.ws.ui.model.response;
 
 public class UserRest {
 

@@ -1,9 +1,6 @@
 package com.tatek.ws.ui.controllers;
 
-import java.util.HashMap;
 import java.util.Map;
-import java.util.UUID;
-
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,12 +17,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tatek.ws.exceptions.UserServiceException;
 import com.tatek.ws.ui.model.request.UpdateUserDetailsRequestModel;
 import com.tatek.ws.ui.model.request.UserDetailsRequestModel;
 import com.tatek.ws.ui.model.response.UserRest;
 import com.tatek.ws.userservice.UserService;
-import com.tatek.ws.userservice.impl.UserServiceImpl;
 
 @RestController
 @RequestMapping("/users")
